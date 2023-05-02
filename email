@@ -13,9 +13,18 @@
         display: flex;
         justify-content: center;
       }
+      .contents {
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+      }
       .container {
         max-width: 800px !important;
         margin-top: 50px;
+        display: table;
+        height: 100%;
+        position: relative;
+        width: 100%;
       }
       .header {
         text-align: center;
@@ -58,45 +67,47 @@
   <body>
     <section>
       <div class="container">
-        <div class="header">BORNEO SCHEMATICS</div>
-        <div class="content">
-          <p>Hi, User.</p>
-          <h5>This is a data information your account which has been registered in borneo schematics</h5>
-        </div>
-        <div class="content-table">
-          <p>Data Information</p>
-          <div style="margin-left: 50px">
-            <table border="0" width="50%">
-              <tbody>
-                <tr>
-                  <th>Created</th>
-                  <td>: 7879879</td>
-                </tr>
-                <tr>
-                  <th>Email</th>
-                  <td>: 7879879</td>
-                </tr>
-                <tr>
-                  <th>User</th>
-                  <td>: 7879879</td>
-                </tr>
-                <tr>
-                  <th>Password</th>
-                  <td>: 7879879</td>
-                </tr>
-                <tr>
-                  <th>Code Activated</th>
-                  <td>: 7879879</td>
-                </tr>
-                <tr>
-                  <th>Expired</th>
-                  <td>: 7879879</td>
-                </tr>
-              </tbody>
-            </table>
+        <div class="contents">
+          <div class="header">BORNEO SCHEMATICS</div>
+          <div class="content">
+            <p>Hi, User.</p>
+            <h5>This is a data information your account which has been registered in borneo schematics</h5>
           </div>
+          <div class="content-table">
+            <p>Data Information</p>
+            <div style="margin-left: 50px">
+              <table border="0" width="50%">
+                <tbody>
+                  <tr>
+                    <th>Created</th>
+                    <td>: 7879879</td>
+                  </tr>
+                  <tr>
+                    <th>Email</th>
+                    <td>: 7879879</td>
+                  </tr>
+                  <tr>
+                    <th>User</th>
+                    <td>: 7879879</td>
+                  </tr>
+                  <tr>
+                    <th>Password</th>
+                    <td>: 7879879</td>
+                  </tr>
+                  <tr>
+                    <th>Code Activated</th>
+                    <td>: 7879879</td>
+                  </tr>
+                  <tr>
+                    <th>Expired</th>
+                    <td>: 7879879</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <h5 class="footer">Thank you for using the borneo schematics, I hope you are satisfied with our service</h5>
         </div>
-        <h5 class="footer">Thank you for using the borneo schematics, I hope you are satisfied with our service</h5>
       </div>
     </section>
   </body>
