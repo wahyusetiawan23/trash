@@ -1,0 +1,139 @@
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+====================================================================
+      .lisensi {
+        margin-top: 20px;
+      }
+      .lisensi .card {
+        border-radius: 8px;
+      }
+      .card-license {
+        box-shadow: 0px 0px 8px rgba(82, 82, 82, 0.5);
+      }
+      .card-license .col-3 {
+        background-color: #ff0000;
+        color: #fff;
+        text-align: center;
+        border-radius: 8px 0px 0px 8px;
+        padding: 10px;
+      }
+      p {
+        margin-bottom: 0px;
+      }
+
+      .title-month {
+        font-size: 67px;
+        font-weight: 800;
+        margin: -15px 0px -15px 0px;
+      }
+
+      .desc-month {
+        font-size: 18px;
+        font-weight: 500;
+        margin-bottom: -5px;
+      }
+      .card-license .col-9 {
+        text-align: center;
+        padding: 10px;
+        font-family: "Bebas Neue", cursive;
+        letter-spacing: 0.02em;
+        background: #fff1db;
+        border-radius: 0px 8px 8px 0px;
+      }
+      .card-license .card,
+      .card-license .card-header,
+      .card-license .card-footer {
+        background: unset;
+        border: unset;
+        padding: 0px;
+      }
+      .card-code {
+        padding-right: 10px !important;
+      }
+      .card-license .card-body {
+        padding: 10px;
+      }
+      .header-code,
+      .footer-code {
+        font-size: 15px;
+      }
+
+      .content-code {
+        font-size: 24px;
+        color: #ff0000;
+      }
+      .text-danger {
+        color: #ff0000 !important;
+      }
+      .col-md-6 {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+      }
+      .card-license .row {
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+      .card-info {
+        padding: 18px;
+        border-radius: 8px;
+        border: 1px solid #ff0000;
+        color: #ff0000;
+      }
+      .header-info {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+      }
+      .content-info {
+        text-align: justify;
+        font-size: 16px;
+        margin-top: 10px;
+        font-weight: 500;
+      }
+      .promo-month {
+        font-weight: 800 !important;
+        font-size: 22px;
+        line-height: 99%;
+      }
+==========================================================================
+<div class="lisensi container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card card-license">
+            <div class="row">
+              <div class="col-3 d-flex align-items-center">
+                <div>
+                  <p class="title-month">12</p>
+                  <p class="promo-month">PROMO CODES</p>
+                  <p class="desc-month">MONTHS</p>
+                  <p class="desc-month">2 USER</p>
+                </div>
+              </div>
+              <div class="col-9">
+                <div class="card card-code">
+                  <div class="card-header header-code">Your activation codes / license</div>
+                  <div class="card-body content-code">7987GHHGHGJG</div>
+                  <div class="card-footer footer-code">
+                    your account is a <span class="text-danger">2 pc user account</span> license <span class="text-danger">can only be renewed with 2 pc user renewal code!</span> (<span class="text-danger">12</span> digits codes
+                    <span class="text-danger">xxxxx-xxxxx-xx</span>)
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card-info card">
+            <div class="header-info">
+              <span><i class="fa-solid fa-triangle-exclamation"></i></span>
+              <span class="mx-2">ATTENTION</span>
+              <span><i class="fa-solid fa-triangle-exclamation"></i></span>
+            </div>
+            <div class="content-info">
+              <span> Make sure before renewing your Borneo Schematics subscription to check your license code. The seller does not provide a refund procedure if you buy the wrong license code </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
