@@ -1,0 +1,157 @@
+           <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap" rel="stylesheet" />
+    
+    ===============================================================================================================
+       .content-code {
+        font-size: 23px;
+        color: #ff0000;
+        font-weight: 600;
+        font-family: "Roboto", sans-serif;
+        letter-spacing: 0em;
+      }
+      .about-real {
+        background-color: #bfe5f2;
+        padding: 50px 0px;
+      }
+      .about-real img {
+        width: 100%;
+      }
+      .about-real .col-md-4 {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+      }
+      .about-real .col-md-7 .row {
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+
+      .about-real .content .icon {
+        width: 45px;
+        height: 45px;
+        background: #fff;
+        border-radius: 100px;
+        padding: 10px;
+        box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.25);
+      }
+   
+      .about-real .content {
+        margin-bottom: 20px;
+      }
+      .about-real .content .text {
+        margin-top: 10px;
+      }
+
+      .content .text .title {
+        font-size: 16px;
+        font-weight: 700;
+      }
+      .content .text .desc {
+        font-size: 14px;
+      }
+      
+      =======================================================
+         <div class="col-md-7">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="content">
+                  <div class="icon">
+                    <img src="content.png" alt="" />
+                  </div>
+                  <div class="text">
+                    <p class="title">Content Mobile Phone</p>
+                    <p class="desc">Listing Borneo Mobile Phone (Bitmap, Pdf, Boardview)</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="content">
+                  <div class="icon">
+                    <img src="combine.png" alt="" />
+                  </div>
+                  <div class="text">
+                    <p class="title">Combine Solutions</p>
+                    <p class="desc">Combining several elements such as bitmap and pdf</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="content">
+                  <div class="icon">
+                    <img src="part-finder.png" alt="" />
+                  </div>
+                  <div class="text">
+                    <p class="title">PCD</p>
+                    <p class="desc">Look up the IC equation</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="content">
+                  <div class="icon">
+                    <img src="datawork.png" alt="" />
+                  </div>
+                  <div class="text">
+                    <p class="title">Borneo Dataworks</p>
+                    <p class="desc">Download Firmware</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="content">
+                  <div class="icon">
+                    <img src="done.png" alt="" />
+                  </div>
+                  <div class="text">
+                    <p class="title">Done Documentation</p>
+                    <p class="desc">Record documenting all the work done</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="content">
+                  <div class="icon">
+                    <img src="share_2.png" alt="" />
+                  </div>
+                  <div class="text">
+                    <p class="title">Share</p>
+                    <p class="desc">Share screenshots to the group</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="content">
+                  <div class="icon">
+                    <img src="profil_2.png" alt="" />
+                  </div>
+                  <div class="text">
+                    <p class="title">Profil</p>
+                    <p class="desc">Personal data, change password, and validity period</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="content">
+                  <div class="icon">
+                    <img src="sb_1.png" alt="" />
+                  </div>
+                  <div class="text">
+                    <p class="title">Borneo Smartboard</p>
+                    <p class="desc">Listing Borneo Smartboard (Path Directory, Dioda Value)</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="content">
+                  <div class="icon">
+                    <img src="pc.png" alt="" />
+                  </div>
+                  <div class="text">
+                    <p class="title">Content Laptop / PC</p>
+                    <p class="desc">Listing Borneo Laptop/PC</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
