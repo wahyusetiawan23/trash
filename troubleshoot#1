@@ -39,14 +39,19 @@
                 <div class="card-body">
                   <div class="row content_s">
                     <div class="col-4">
-                      <a href="image.png" data-fancybox="image">
-                        <img src="image.png" alt="" />
+                      <a href="image-menu.png" data-fancybox="image">
+                        <img src="image-menu.png" alt="" />
                       </a>
                     </div>
                     <div class="col-8">
                       <div>
                         <a href="troubleshoot_details.html">
-                          <p class="title-header">Title Header Troubleshoot,</p>
+                          <p class="title-header">
+                            Title Header Troubleshoot, Lorem ipsum dolor sit
+                            amet consectetur adipisicing elit. Corrupti corporis
+                            tenetur maiores laboriosam doloremque, ad laudantium
+                            eius autem ipsum ratione.
+                          </p>
                           <p class="badge rounded-pill text-bg-danger">
                             Version Patch 05.05
                           </p>
