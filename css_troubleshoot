@@ -37,10 +37,18 @@ body {
     border: none;
     box-shadow: 0px 2px 8px rgba(4, 0, 255, 0.15);
     border-radius: 10px;
+    margin-bottom: 15px;
   }
   .title-header {
     font-size: 18px;
     font-weight: 500;
+    white-space: normal;
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    max-height: 200px;
   }
   P {
     margin-bottom: 0px;
