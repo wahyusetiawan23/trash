@@ -64,36 +64,6 @@
                 </div>
               </div>
             </div>
-            <div class="col-md-6">
-              <div class="card">
-                <div class="card-body">
-                  <div class="row content_s">
-                    <div class="col-4">
-                      <a href="image-menu.png" data-fancybox="image">
-                        <img src="image-menu.png" alt="" />
-                      </a>
-                    </div>
-                    <div class="col-8">
-                      <div>
-                        <a href="troubleshoot_details.html">
-                          <p class="title-header">Title Header Troubleshoot,</p>
-                          <p class="badge rounded-pill text-bg-danger">
-                            Version Patch 05.05
-                          </p>
-                        </a>
-                      </div>
-                      <div class="content-details">
-                        <a href="troubleshoot_details.html">
-                          <div class="icon">
-                            <i class="fa-solid fa-arrow-right"></i>
-                          </div>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </div>
