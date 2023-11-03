@@ -1,4 +1,4 @@
- .news_event {
+      .news_event {
         background-color: #bfe5f2;
       }
       .news_event .row {
@@ -16,6 +16,8 @@
       }
       .content-newsEvent a:hover {
         text-decoration: none;
+        color: #007bff;
+        transition: all 0.5s;
       }
       .content-newsEvent .title-content {
         white-space: normal;
@@ -34,7 +36,7 @@
               <a href="" target="_blank" rel="noopener noreferrer">
                 <img src="imgBARU.png" alt="" />
                 <div>
-                  <span class="badge badge-danger">Event</span>
+                 <span class="badge badge-danger">EVENT</span>
                   <p class="title-content">
                     SELAMAT DATANG DI PLATFORM CHATGPT, DI MANA ANDA DAPAT
                     MENGAJUKAN PERTANYAAN DAN MEMINTA INFORMASI YANG ANDA
@@ -49,7 +51,8 @@
               <a href="" target="_blank" rel="noopener noreferrer">
                 <img src="imgBARU.png" alt="" />
                 <div>
-                  <span class="badge badge-danger">Event</span>
+                <span class="badge badge-success">NEWS</span>
+                  <span class="badge badge-primary">INFO</span>
                   <p class="title-content">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Perferendis nemo blanditiis similique placeat commodi, enim
