@@ -1,0 +1,64 @@
+ .news_event {
+        background-color: #bfe5f2;
+      }
+      .news_event .row {
+        padding: 20px 0px 20px 0px;
+      }
+      .content-newsEvent a {
+        display: flex;
+        gap: 20px;
+        color: #000;
+      }
+      .content-newsEvent img {
+        height: 150px;
+        width: 150px;
+        border-radius: 8px;
+      }
+      .content-newsEvent a:hover {
+        text-decoration: none;
+      }
+      .content-newsEvent .title-content {
+        white-space: normal;
+        overflow: hidden;
+        display: -webkit-box;
+        text-overflow: ellipsis;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 5;
+      }
+
+<section class="news_event mt-1">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <div class="content-newsEvent">
+              <a href="" target="_blank" rel="noopener noreferrer">
+                <img src="imgBARU.png" alt="" />
+                <div>
+                  <span class="badge badge-danger">Event</span>
+                  <p class="title-content">
+                    SELAMAT DATANG DI PLATFORM CHATGPT, DI MANA ANDA DAPAT
+                    MENGAJUKAN PERTANYAAN DAN MEMINTA INFORMASI YANG ANDA
+                    BUTUHKAN. KAMI SIAP MEMBANTU ANDA!
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="content-newsEvent">
+              <a href="" target="_blank" rel="noopener noreferrer">
+                <img src="imgBARU.png" alt="" />
+                <div>
+                  <span class="badge badge-danger">Event</span>
+                  <p class="title-content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Perferendis nemo blanditiis similique placeat commodi, enim
+                    ullam
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
